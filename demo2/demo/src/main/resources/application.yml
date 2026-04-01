@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+name: abc
+
+person:
+  name: zhangsan
+  age: 18
+  address:
+    - beijing
+    - shanghai
+
+person2: {name: zhangsan,age: 18}
+
+address:
+  - beijing
+  - shanghai
+
+address2: {[beijing,shanghai]}
+
+msg1: 'hallow \n world'
+msg2: "hallow \n world"
+
+person3: ${name}
